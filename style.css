@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    font-family:'Poppins';
+    overflow-x: hidden;
+}
+ul {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    position: absolute;
+    left: 43%;
+    text-decoration: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li {
+  width: 7.4rem;
+}
+.header {
+    border-bottom: 2px solid black;
+    padding-bottom: 4rem;
+}
+.logo {
+    position: absolute;
+    margin-top: 1rem;
+    left: 3%;
+    font-weight: bold;
+}
+.intro-text {
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    font-size: 1.7rem;
+}
+.session {
+    position: absolute;
+    top: 40%;
+    width: 31%;
+    left: 5%;
+    border-radius: 10%;
+}
+.notes {
+    position: absolute;
+    top: 40%;
+    width: 31%;
+    left: 40%;
+    height: 50%;
+    border-radius: 10%;
+}
+.quiz {
+    position: absolute;
+    top: 40%;
+    width: 31%;
+    left: 73%;
+    height: 53%;
+    border-radius: 10%;
+}
+.quiz, .notes, .session {
+    width: 28%;
+}
+@media (max-width: 900px){
+    .quiz, .notes, .session{
+        height: 30%;
+        width: 30%;
+    }
+    .intro-text {
+        left: 35%;
+    }
+    .quiz-text {
+        left: 80%;
+    }
+}
+.session-text {
+    margin-top: 40%;
+    font-weight: bold;
+    width: 30%;
+    position: absolute;
+    left: 5%;
+    font-size: 1.3rem;
+}
+.notes-text {
+    margin-top: 40%;
+    font-weight: bold;
+    width: 30%;
+    position: absolute;
+    left: 40%;
+    font-size: 1.3rem;
+}
+.quiz-text {
+    margin-top: 40%;
+    font-weight: bold;
+    width: 25.5%;
+    position: absolute;
+    left: 75%;
+    font-size: 1.3rem;
+}
+@media (max-width: 500px){
+    .session-text, .quiz-text, .notes-text {
+        margin-top: 49%;
+    }
+}
+
+@media (max-width: 800px){
+    .session-text, .notes-text, .quiz-text {
+    top: 42.5%;
+}
+}
+
+/* footer {
+    background: #0ff;
+    position: absolute;
+    top: 120%;
+    width: 100%;
+    height: 20%;
+    left: 0%;
+}
+footer h3 {
+    margin-left: 43.5%;
+    margin-top: 4%;
+} */
